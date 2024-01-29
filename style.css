@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: black;
+    --font-family: "Red Hat Display";
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+}
+
+header {
+    width: 1140px;
+    height: auto;
+    background: rgb(88, 88, 88);
+    margin: 0 auto;
+    color: white;
+    font-family: var(--font-family);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 378px) {
+    header {
+        max-width: 370px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}
